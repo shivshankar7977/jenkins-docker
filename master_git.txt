@@ -1,0 +1,28 @@
+    1  ls
+    2  hostname
+    3  hostnamectl set-hostname master
+    4  hostname
+    5  init 6
+    6  apt update -y
+    7  apt upgrade -y
+    8  apt update -y
+    9  apt upgrade -y
+   10  apt install git -y
+   11  git --version
+   12  which git
+   13  git clone https://github.com/shivshankar7977/jenkins-docker.git
+   14  ls
+   15  cd jenkins-docker/
+   16  ls
+   17  ls -la
+   18  echo " Hii.....jenkins-Docker CICD Pipelines demo" > index.html
+   19  cat index.html 
+   20  ls
+   21  git add -A
+   22  git commit -m "first commit"
+   23  git config --global user.email "shivshankargade321@gmail.com"
+   24  git commit -m "first commit"
+   25  git push -u origin master
+   26  history
+   27  ls
+   28  history > master_git.txt
